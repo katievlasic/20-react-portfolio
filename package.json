@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/katievlasic/20-react-portfolio/issues"
   },
-  "homepage": "https://github.com/katievlasic/20-react-portfolio#readme"
+  "homepage": "https://github.com/katievlasic/20-react-portfolio#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
