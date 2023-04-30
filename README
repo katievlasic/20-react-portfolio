@@ -20,26 +20,13 @@ This application is my personal projects portfolio using React 🤩.
 2. npm init -y
 3. Type in the terminal the following:
 * `npm install react`
+* `npm install react-scripts`
+* `npm install react-dom`
+* `npm install typescript`
+4. To start the application locally, type `npm run start`
+5. To build the application, type `npm run build`
 
 
-Not sure yet...
-* `npm i inquirer@8.2.4` 
-* `npm install --save mysql2`
-* `npm install --save dotenv`
-* `npm install -- save express`
-* `npm install -- save sequelize`
-* `npm install -- save bcrypt`
-* `npm install -- save express-handlebars`
-* `npm install -- save express-session`
-* `npm install -- save connect-session-sequelize`
-* `npm install -- save sql sanitizer`
-
-4. Open the mysql shell using `mysql -u root -p` (enter your password when prompted)
-5. Within mysql shell, type `source db/schema.sql`
-6. Within mysql shell, type `USE employee_db;`
-7. Leave mysql shell by either typing `exit` or `Ctrl`+`c`
-8. Back in the main bash terminal, type `npm run seeds` to seed the db
-9. Type `node server.js` to begin the application
 
 ## Usage
 

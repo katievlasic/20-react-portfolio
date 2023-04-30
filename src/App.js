@@ -1,10 +1,10 @@
-import './App.css';
-import Info from './components/Info';
+import React from "react";
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="port-app">
-      <Info />
+      <Navbar />
     </div>
   );
 }
