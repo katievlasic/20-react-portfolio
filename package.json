@@ -1,0 +1,23 @@
+{
+  "name": "20-react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katievlasic/20-react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katievlasic/20-react-portfolio/issues"
+  },
+  "homepage": "https://github.com/katievlasic/20-react-portfolio#readme"
+}
