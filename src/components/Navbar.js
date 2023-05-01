@@ -3,14 +3,13 @@ import "../styles/Navbar.css";
 
 const styles = {
   nav: {
-    background: "green",
-    justifyContent: "flex-end",
+    background: "green"
   },
 };
 
 function Navbar() {
   return (
-    <nav style={styles.nav} className="navbar">
+    <nav style={styles.nav} className="container">
       <a href="/">Home</a>
       <a href="/">Portfolio</a>
       <a href="/">About Me</a>

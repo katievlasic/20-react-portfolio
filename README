@@ -40,3 +40,11 @@ Active endpoints:
 ## Questions
 
 Please contact [Katie Vlasic](https://github.com/katievlasic) with any questions. 
+
+
+copy back into package.json line 22 
+
+  "homepage": "https://github.com/katievlasic/20-react-portfolio#readme",
+
+npx - packages runs directly from the internet , download, run , drop
+npm - download packages and manage.
