@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer/index";
+import ContactForm from "./components/ContactForm/index";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         </div>
         <div class="ab">
           <AboutMe />
+        </div>
+        <div>
+          <ContactForm />
+        </div>
+        <div>
+          <Resume />
         </div>
       </div>
       <Footer />

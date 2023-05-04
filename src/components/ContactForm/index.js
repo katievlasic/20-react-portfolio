@@ -23,7 +23,7 @@ function Connect() {
           <button
             type="submit"
             className="btn btn-danger"
-            onClick={}
+            // onClick={}
           >
           </button>
         </div>
