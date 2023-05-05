@@ -22,6 +22,8 @@ This is a react application is my personal projects [portfolio](https://katievla
 4. To start the application locally, type `npm run start`
 5. To build the application, type `npm run build`
 
+Noteworthy: during the deployment of this app, I used [this documentation](https://create-react-app.dev/docs/deployment/) to deploy to github pages.
+
 ## Usage
 
 There are different sections including a contact form, my resume, recent projects, and an about me section. Please fill out the connect with me form to get in touch. I am active on LinkedIn.
