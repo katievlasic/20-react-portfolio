@@ -1,6 +1,6 @@
 import React from "react";
 import resume from "../assets/resumePreview.jpg"
-
+import "../styles/Footer.css";
 
 function aboutMe() {
   return (

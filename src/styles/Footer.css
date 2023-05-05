@@ -1,0 +1,10 @@
+.footerLinks img{
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footerLinks img:hover{
+    width: 100px;
+  }
