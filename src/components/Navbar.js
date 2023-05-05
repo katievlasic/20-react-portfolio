@@ -10,11 +10,11 @@ const styles = {
 function Navbar() {
   return (
     <nav style={styles.nav}>
-      <a href="/">Home </a>
-      <a href="/">Portfolio </a>
-      <a href="/">About Me </a>
-      <a href="/">Social </a>
-      <a href="/">Contact </a>
+      <a href="/" class="col">Home </a>
+      <a href="/" class="col">Portfolio </a>
+      <a href="/" class="col">About Me </a>
+      <a href="/" class="col">Social </a>
+      <a href="/" class="col">Contact </a>
     </nav>
   );
 }

@@ -8,15 +8,14 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <>
-      <div class="container-fluid ">
-        <div class="top">
-          <div id="title">
+      <div class="container ">
+        <div class="top container">
+          <div class="col" id="title">
             Vlasic Profile
-            </div>
-            <div>
-              <Navbar />
           </div>
-        </div>
+          <div class="col">
+            <Navbar />
+          </div>
         <div class="ab">
           <AboutMe />
         </div>
@@ -26,6 +25,7 @@ function App() {
         <div>
           <Resume />
         </div>
+      </div>
       </div>
       <Footer />
     </>

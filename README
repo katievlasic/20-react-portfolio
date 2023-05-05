@@ -2,9 +2,9 @@
 
 ## Description
 
-This application is my personal projects portfolio using React 🤩. 
+This is a react application is my personal projects [portfolio](https://katievlasic.github.io/20-react-portfolio/). 
 
-![Preview]()
+![Preview](./src/assets/resumePreview.jpg)
 
 ## Table of Contents
 
@@ -18,33 +18,14 @@ This application is my personal projects portfolio using React 🤩.
 
 1. Go to root directory
 2. npm init -y
-3. Type in the terminal the following:
-* `npm install react`
-* `npm install react-scripts`
-* `npm install react-dom`
-* `npm install typescript`
+3. Type in the terminal the following `npm install`
 4. To start the application locally, type `npm run start`
 5. To build the application, type `npm run build`
 
-
-
 ## Usage
 
-Navigate through the [application]() 
-
-Active endpoints:
-* /
-* /
-* /
+There are different sections including a contact form, my resume, recent projects, and an about me section. Please fill out the connect with me form to get in touch. I am active on LinkedIn.
 
 ## Questions
 
 Please contact [Katie Vlasic](https://github.com/katievlasic) with any questions. 
-
-
-copy back into package.json line 22 
-
-  "homepage": "https://github.com/katievlasic/20-react-portfolio#readme",
-
-npx - packages runs directly from the internet , download, run , drop
-npm - download packages and manage.

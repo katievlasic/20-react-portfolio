@@ -10,8 +10,8 @@ function Connect() {
     // };
   
     return (
-      <div className="card text-center">
-        <div className="card-header bg-warning text-white">
+      <div className="card text-center container">
+        <div className="card-header col-4">
          Connect with Me!
         </div>
         <div>
@@ -22,9 +22,10 @@ function Connect() {
         <div className="card-body">
           <button
             type="submit"
-            className="btn btn-danger"
+            className="btn btn-warning"
             // onClick={}
           >
+            Connect
           </button>
         </div>
       </div>
