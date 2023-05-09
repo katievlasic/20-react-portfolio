@@ -1,4 +1,5 @@
 import React from "react";
+import Route from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer/index";
@@ -27,6 +28,7 @@ function App() {
         </div>
       </div>
       </div>
+
       <Footer />
     </>
   );
