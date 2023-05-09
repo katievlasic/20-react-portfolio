@@ -15,21 +15,18 @@ function Connect() {
       setEmail(inputValue);
     }
   }
-  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !userName) {
+    if (!validateEmail(email)) {
       setErrorMessage('Email or username is invalid');
       return;
     }
-    alert(`Hello ${userName}`);
-
-    setUserName('');
-    setPassword('');
+   
     setEmail('');
-  };
+  }
+  
   
     return (
       <div className="card text-center container">
@@ -56,7 +53,10 @@ function Connect() {
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
-    );
+    )
+      }
+      </div>
+    )
   }
   
   export default Connect;
