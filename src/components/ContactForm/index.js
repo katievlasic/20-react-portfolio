@@ -43,7 +43,7 @@ function Connect() {
         />
           <button
             type="submit"
-            className="btn btn-warning"
+            className="btn btn-primary btn-block"
             onClick={handleFormSubmit}
           >
             Connect

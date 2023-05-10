@@ -1,10 +1,10 @@
 import React from "react";
 import { Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
+import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 import ContactForm from "./components/ContactForm/index";
+import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
 
 
@@ -23,10 +23,9 @@ function App() {
             Vlasic Profile
           </div>
           <div class="col">
-            <Navbar />
+            <Header />
           </div>
           <Routes>
-              {/* Define routes to render different page components at different paths */}
               <Route 
                 path="/" 
                 element={<AboutMe />} 
