@@ -3,9 +3,10 @@ import { Router, Routes, Route } from 'react-router-dom';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
-import ContactForm from "./components/ContactForm/index";
+// import ContactForm from "./components/ContactForm/index";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
+import Projects from "./pages/Projects";
 
 
 const client = new ApolloClient({
@@ -17,35 +18,28 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
-      <div class="container ">
-        <div class="top container">
-          <div class="col" id="title">
-            Vlasic Profile
-          </div>
-          <div class="col">
+      <div class="flex-column justify-flex-start min-100-vh">
             <Header />
-          </div>
+        <div className="ontainer">
           <Routes>
               <Route 
                 path="/" 
                 element={<AboutMe />} 
               />
-              </Routes>
-        <div class="ab">
-          <AboutMe />
+              <Route 
+                path="/" 
+                element={<Resume />} 
+              />
+              <Route 
+                path="/" 
+                element={<Projects />} 
+              />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-        <div>
-          <ContactForm />
-        </div>
-        <div>
-          <Resume />
-        </div>
-      </div>
-      </div>
-
-      <Footer />
       </Router>
-      </ApolloProvider>
+    </ApolloProvider>
   );
 }
 
