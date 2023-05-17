@@ -1,5 +1,6 @@
 import React from "react";
-import { Router, Routes, Route } from 'react-router-dom';
+// import * as ReactDOM from "react-dom";
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 // import ContactForm from "./components/ContactForm/index";
@@ -9,10 +10,10 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-      <Router>
+      <HashRouter>
       <div class="flex-column justify-flex-start min-100-vh">
             <Header />
-        <div className="ontainer">
+        <div className="container">
           <Routes>
               <Route 
                 path="/" 
@@ -30,7 +31,7 @@ function App() {
           </div>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
   );
 }
 
