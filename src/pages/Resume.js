@@ -2,7 +2,7 @@ import React from "react";
 import resume from "../assets/resumePreview.jpg"
 import "../styles/Footer.css";
 
-function aboutMe() {
+function Resume() {
   return (
     <div className="container">
         <h2>Resume
@@ -13,4 +13,4 @@ function aboutMe() {
   );
 }
 
-export default aboutMe;
+export default Resume;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import "../../styles/Navbar";
+import "../../styles/Navbar.css";
 
 const styles = {
   nav: {
@@ -8,42 +8,39 @@ const styles = {
   },
 };
 
-const Header = ({ handlePageChange }) => {
+const Header = () => {
   return (
-    <header className="bg-info text-dark mb-4 py-3 display-flex align-center">
-      <div class="top text-light" id="title">
+    <header>
+      <div class="container-fluid row">
+      <div class="col-4" id="title">
         Vlasic Profile
       </div>
-      <div className="container flex-column justify-space-between-lg justify-center align-center text-center">
+      <div className="col-8 d-flex justify-contents-end">
       <nav style={styles.nav} class="container">
-        <ul class="row">
-          <button class="col-2">
-            <Link to="/home" class="btn btn-warning">
-              Home
-            </Link>
-          </button>
-            <li class="col-2">
+        <ul class="">
+            <li class="">
             <Link to="/aboutme" class="col">
               About Me
             </Link>
           </li>
-          <li class="col-2">
+          <li class="">
             <Link to="/projects" class="col">
-              Portfolio
+              Projects
             </Link>
           </li>
-          <li class="col-2">
-            <Link to="/social" class="col">
-              Social
-            </Link>
-          </li>
-          <li class="col-2">
+          <li class="">
             <Link to="/contact" class="col">
               Contact
             </Link>
           </li>
+          <li class="">
+            <Link to="/resume" class="col">
+              Resume
+            </Link>
+          </li>
         </ul>
         </nav>
+      </div>
       </div>
     </header>
   );

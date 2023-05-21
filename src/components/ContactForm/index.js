@@ -30,7 +30,7 @@ function Connect() {
   
     return (
       <div className="card text-center container">
-        <div className="card-header col-4">
+        <div className="card-header col-6">
          Connect with Me!
         </div>
         <form className="form">
