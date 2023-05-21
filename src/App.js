@@ -3,7 +3,7 @@ import React from "react";
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
-// import ContactForm from "./components/ContactForm/index";
+import Contact from "./components/ContactForm/index";
 import AboutMe from "./pages/AboutMe";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
@@ -16,16 +16,20 @@ function App() {
         <div className="container">
           <Routes>
               <Route 
-                path="/" 
+                path="/aboutme" 
                 element={<AboutMe />} 
               />
               <Route 
-                path="/" 
+                path="/resume" 
                 element={<Resume />} 
               />
               <Route 
-                path="/" 
+                path="/projects" 
                 element={<Projects />} 
+              />
+              <Route 
+                path="/contact" 
+                element={<Contact />} 
               />
             </Routes>
           </div>
